@@ -1,0 +1,27 @@
+body{
+    background-color: #AC4C67;
+    font-size: 32px;
+    color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#signup{
+    padding: auto;
+    text-align: center;
+    
+}
+input{
+    text-decoration: none;
+    list-style: none;
+    background-color: #34495E;
+}
+input::placeholder{
+    color: #f4f4f4;
+}
+#survey-form{
+    background-color: #34475E;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: auto;
+}
