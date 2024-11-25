@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Form</title>
 </head>
 <body>
-    <h1 id="title">Form</h1>
-    <p id="description">Survey Form For CSS Practice</p>
-    <form action="" id="survey-form" >
-    
-    <div id="signup">
+    <h1 id="title">Survey Form For CSS Practice</h1>
+    <form action="" id="survey-form">
+        <div id="labels">
+        <label for="name"></label>
+        <input type="text" class="icon-1" id="name" placeholder="FullName">
+        <label for="mail"></label>
+        <input type="email" class="icon-1" id="mail" placeholder="Mail">
+        <label for="age"></label>
+        <input type="number" class="icon-1" id="age" placeholder="Age">
+
+        <select name="select" id="select">
+            <option value="">Select Gender</option>
+            <option value="erkek">Erkek</option>
+            <option value="kadın">Kadın</option>
+        </select>
+        <p>Bizi nereden duydunuz?</p>
+        <div id="social">
         
-    <input type="text" name="name" id="name" placeholder="Full Name"><br>
-    <input type="email" name="email" id="email" placeholder="Mail">
-    
-    </div>
+        <input type="radio">İnstagram
+        <input type="radio">LinkedIn
+        </div>
+        <div id="check">
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">Terms Of Services</label>
+        <input type="checkbox" name="news" id="news">
+        <label for="news">Subscribe For News</label>
+        </div>
+        <textarea name="textarea" id="textarea" placeholder="Suggestions"></textarea>
+        </div>
     </form>
-
-
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
